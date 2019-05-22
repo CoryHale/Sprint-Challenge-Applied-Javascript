@@ -32,30 +32,41 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    The DOM is the Document Object Model and it is a JavaScript representation of the HTML. Which we can then use in our JavaScript code to add extra functionality and interactivity.
+
 2. What is an event?
+
+    An event is any input by the user that the DOM can have access to such as mouse: clicks, double clicks, hovering over an item, scrolling or keyboard: keys typing or holding a key and letting it up. These
+    are just a few examples of events.
 
 3. What is an event listener?
 
+    Events are happening all the time on your page, but we can choose to listen to only a few of them, therefore event listeners are basically buttons or switches in your code that only activate when a specific event fires. Then that event listener will trigger a change or other thing on your page.
+
 4. Why would we convert a NodeList into an Array?
+
+    Although a NodeList is array like in type and has access to a few methods such as forEach, it does not have all the properties or methods of an array, so if there are things we would like to do with our NodeList that we can't normally we change it into an array to have access to those things.
 
 5. What is a component?
 
+    A component is a way of creating a functional prototype for your page, for example you have 20 buttons on your site that all do the same thing. Instead of coding each one individually we can target all of them and then use a component to give each one the same functionality even though we have only coded the component once. It allows for DRY programming.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [X] Fork the project into your GitHub user account
+* [X] Clone the forked project into a directory on your machine
+* [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [X] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
+* [X] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
 
-* [ ] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
+* [X] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
-* [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
+* [X] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
 
 ## Stretch Problems
 
